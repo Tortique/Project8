@@ -1,0 +1,32 @@
+tourGuide/domain/Attraction.java
+ tourGuide.domain.Attraction
+tourGuide/domain/UserReward.java
+ tourGuide.domain.UserReward
+tourGuide/helper/InternalTestHelper.java
+ tourGuide.helper.InternalTestHelper
+tourGuide/domain/UserPreferences.java
+ tourGuide.domain.UserPreferences
+tourGuide/domain/NearByAttraction.java
+ tourGuide.domain.NearByAttraction
+tourGuide/domain/Location.java
+ tourGuide.domain.Location
+tourGuide/exceptions/InvalidLocationException.java
+ tourGuide.exceptions.InvalidLocationException
+tourGuide/domain/User.java
+ tourGuide.domain.User
+tourGuide/proxies/GPSServiceProxy.java
+ tourGuide.proxies.GPSServiceProxy
+tourGuide/domain/VisitedLocation.java
+ tourGuide.domain.VisitedLocation
+tourGuide/proxies/RewardServiceProxy.java
+ tourGuide.proxies.RewardServiceProxy
+tourGuide/Application.java
+ tourGuide.Application
+tourGuide/service/ITourGuideService.java
+ tourGuide.service.ITourGuideService
+tourGuide/service/TourGuideService.java
+ tourGuide.service.TourGuideService
+tourGuide/tracker/Tracker.java
+ tourGuide.tracker.Tracker
+tourGuide/TourGuideController.java
+ tourGuide.TourGuideController

@@ -1,0 +1,26 @@
+GPS/domain/Location.java
+ GPS.domain.Location
+GPS/service/IGPSService.java
+ GPS.service.IGPSService
+GPS/domain/NearByAttraction.java
+ GPS.domain.NearByAttraction
+GPS/proxies/RewardServiceProxy.java
+ GPS.proxies.RewardServiceProxy
+GPS/service/GPSService.java
+ GPS.service.GPSService
+GPS/domain/VisitedLocation.java
+ GPS.domain.VisitedLocation
+GPS/util/GpsUtil.java
+ GPS.util.GpsUtil
+GPS/util/GetDistance.java
+ GPS.util.GetDistance
+GPS/proxies/UserServiceProxy.java
+ GPS.proxies.UserServiceProxy
+GPS/GPSApplication.java
+ GPS.GPSApplication
+GPS/domain/Attraction.java
+ GPS.domain.Attraction
+GPS/controller/GPSController.java
+ GPS.controller.GPSController
+GPS/domain/User.java
+ GPS.domain.User

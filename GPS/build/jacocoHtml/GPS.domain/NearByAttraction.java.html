@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>NearByAttraction.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">GPS</a> &gt; <a href="index.source.html" class="el_package">GPS.domain</a> &gt; <span class="el_source">NearByAttraction.java</span></div><h1>NearByAttraction.java</h1><pre class="source lang-java linenums">package GPS.domain;
+
+public class NearByAttraction {
+    private String name;
+    private Location attractionLocation;
+    private Location userLocation;
+    private double distance;
+    private int rewardPoints;
+
+<span class="nc" id="L10">    public NearByAttraction(String name, Location attractionLocation, Location userLocation, double distance, int rewardPoints) {</span>
+<span class="nc" id="L11">        this.name = name;</span>
+<span class="nc" id="L12">        this.attractionLocation = attractionLocation;</span>
+<span class="nc" id="L13">        this.userLocation = userLocation;</span>
+<span class="nc" id="L14">        this.distance = distance;</span>
+<span class="nc" id="L15">        this.rewardPoints = rewardPoints;</span>
+<span class="nc" id="L16">    }</span>
+
+<span class="fc" id="L18">    public NearByAttraction() {</span>
+
+<span class="fc" id="L20">    }</span>
+
+    public String getName() {
+<span class="nc" id="L23">        return name;</span>
+    }
+
+    public void setName(String name) {
+<span class="fc" id="L27">        this.name = name;</span>
+<span class="fc" id="L28">    }</span>
+
+    public Location getAttractionLocation() {
+<span class="nc" id="L31">        return attractionLocation;</span>
+    }
+
+    public void setAttractionLocation(Location attractionLocation) {
+<span class="fc" id="L35">        this.attractionLocation = attractionLocation;</span>
+<span class="fc" id="L36">    }</span>
+
+    public Location getUserLocation() {
+<span class="nc" id="L39">        return userLocation;</span>
+    }
+
+    public void setUserLocation(Location userLocation) {
+<span class="fc" id="L43">        this.userLocation = userLocation;</span>
+<span class="fc" id="L44">    }</span>
+
+    public double getDistance() {
+<span class="fc" id="L47">        return distance;</span>
+    }
+
+    public void setDistance(double distance) {
+<span class="fc" id="L51">        this.distance = distance;</span>
+<span class="fc" id="L52">    }</span>
+
+    public int getRewardPoints() {
+<span class="nc" id="L55">        return rewardPoints;</span>
+    }
+
+    public void setRewardPoints(int rewardPoints) {
+<span class="fc" id="L59">        this.rewardPoints = rewardPoints;</span>
+<span class="fc" id="L60">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>
