@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="TourGuide" />
+      <module name="TourGuide.test" />
+      <module name="TourGuide.main" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d05cdd8d-4ca1-412d-83e7-09265d939e38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/$PROJECT_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/qaplug_profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/GPSApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/controller/GPSController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/domain/Attraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/domain/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/domain/NearByAttraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/domain/VisitedLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/proxies/RewardServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/proxies/UserServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/service/GPSService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/service/IGPSService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/util/GetDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/util/GpsUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/test/GPSServiceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacoco/test.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.controller/GPSController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.controller/GPSController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.controller/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.controller/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/Attraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/Attraction.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/Location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/Location.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/NearByAttraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/NearByAttraction.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/User.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/VisitedLocation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/VisitedLocation.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.domain/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.service/GPSService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.service/GPSService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.service/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/GetDistance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/GetDistance.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/GpsUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/GpsUtil.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS.util/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS/GPSApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS/GPSApplication.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/GPS/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/classes/GPSServiceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/test-results/test/TEST-GPSServiceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/jacocoagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/org/jacoco/agent/AgentJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/GPSApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/controller/GPSController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/domain/Attraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/domain/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/domain/NearByAttraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/domain/VisitedLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/proxies/RewardServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/proxies/UserServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/service/GPSService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/service/IGPSService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/util/GetDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/util/GpsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPS/src/test/java/GPSServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/$PROJECT_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/.idea/qaplug_profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/RewardApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/controller/RewardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/domain/Attraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/domain/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/domain/UserReward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/domain/VisitedLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/proxies/GPSServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/proxies/UserServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/service/IRewardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/service/RewardsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/test/TestRewardsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacoco/test.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.controller/RewardController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.controller/RewardController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.controller/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.controller/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/Attraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/Attraction.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/Location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/Location.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward/RewardApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward/RewardApplication.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/classes/TestRewardsService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/TEST-TestRewardsService.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/jacocoagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/org/jacoco/agent/AgentJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/libs/RewardCentral.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/RewardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/controller/RewardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/domain/Attraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/domain/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/domain/UserReward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/domain/VisitedLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/proxies/GPSServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/proxies/UserServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/service/IRewardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/service/RewardsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/src/test/java/TestRewardsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/$PROJECT_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/qaplug_profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/TourGuideController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/Attraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/NearByAttraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/UserPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/UserReward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/domain/VisitedLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/exceptions/InvalidLocationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/helper/InternalTestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/proxies/GPSServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/proxies/RewardServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/service/ITourGuideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/service/TourGuideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/main/tourGuide/tracker/Tracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/test/tourGuide/TestPerformance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/classes/java/test/tourGuide/TestTourGuideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacoco/test.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/Attraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/Attraction.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/Location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/Location.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/NearByAttraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/NearByAttraction.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/User.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/UserPreferences.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/UserPreferences.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/UserReward.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/UserReward.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/VisitedLocation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/VisitedLocation.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.domain/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.exceptions/InvalidLocationException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.exceptions/InvalidLocationException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.exceptions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.exceptions/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.helper/InternalTestHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.helper/InternalTestHelper.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.helper/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.helper/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.service/TourGuideService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.service/TourGuideService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.service/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.tracker/Tracker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.tracker/Tracker.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.tracker/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide.tracker/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/Application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/Application.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/TourGuideController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/TourGuideController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/jacocoHtml/tourGuide/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/classes/tourGuide.TestPerformance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/reports/tests/test/packages/tourGuide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/test-results/test/TEST-tourGuide.TestPerformance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/jacocoagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/build/tmp/expandedArchives/org.jacoco.agent-0.8.4.jar_982888894296538c98d7324f3ca78d8f/org/jacoco/agent/AgentJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TourGuide/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourGuide/src/test/java/tourGuide/TestPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourGuide/src/test/java/tourGuide/TestPerformance.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../GPS">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/GPS">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Reward">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/TourGuide">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../Reward">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tkPGyZDRJTl87HiHFSCGikLove" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TourGuide" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46666667" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adrie\Desktop\OC-Projet\Projet 8" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.GPSServiceTests.getNearbyAttractions">
+    <configuration name="RewardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reward.RewardApplication" />
+      <module name="Reward" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPSServiceTests.getNearbyAttractions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GPS" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GPSServiceTests.getNearbyAttractions&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRewardsService.isWithinAttractionProximity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../Reward" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestRewardsService.isWithinAttractionProximity&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTourGuideService.getTripDeals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TourGuide" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;tourGuide.TestTourGuideService.getTripDeals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTourGuideService.trackUserLocationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TourGuide" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;tourGuide.TestTourGuideService.trackUserLocationTest&quot; --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Projet_8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Projet_8" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="OC-Projet.GPS.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GPS.GPSApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RewardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="OC-Projet.Reward.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Reward.RewardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.GPSServiceTests.getNearbyAttractions" />
+        <item itemvalue="Gradle.TestRewardsService.isWithinAttractionProximity" />
+        <item itemvalue="Application.RewardApplication" />
+        <item itemvalue="Gradle.TestTourGuideService.getTripDeals" />
+        <item itemvalue="Gradle.TestTourGuideService.trackUserLocationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d05cdd8d-4ca1-412d-83e7-09265d939e38" name="Default Changelist" comment="" />
+      <created>1623310023022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623310023022</updated>
+      <workItem from="1623310024906" duration="6115000" />
+      <workItem from="1623317322204" duration="2539000" />
+      <workItem from="1623322975380" duration="1353000" />
+      <workItem from="1623402283915" duration="27000" />
+      <workItem from="1623402335299" duration="171000" />
+      <workItem from="1623402594071" duration="294000" />
+      <workItem from="1623405486168" duration="16000" />
+      <workItem from="1623500215648" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TourGuide/src/main/java/tourGuide/proxies/GPSServiceProxy.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/TourGuide/src/main/java/tourGuide/proxies/GPSServiceProxy.java</url>
+          <line>17</line>
+          <properties class="tourGuide.proxies.GPSServiceProxy" method="getUserLocation" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

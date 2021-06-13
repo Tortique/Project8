@@ -1,4 +1,4 @@
-tourGuide/TestTourGuideService.java
- tourGuide.TestTourGuideService
 tourGuide/TestPerformance.java
  tourGuide.TestPerformance
+tourGuide/TestTourGuideService.java
+ tourGuide.TestTourGuideService

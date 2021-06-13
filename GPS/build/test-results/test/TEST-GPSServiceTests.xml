@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GPSServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-11T09:52:45" hostname="DESKTOP-NQCJ011" time="76.918">
-  <properties/>
-  <testcase name="getNearbyAttractions" classname="GPSServiceTests" time="76.918"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
