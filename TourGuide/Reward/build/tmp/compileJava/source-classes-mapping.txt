@@ -16,7 +16,7 @@ Reward/controller/RewardController.java
  Reward.controller.RewardController
 Reward/proxies/GPSServiceProxy.java
  Reward.proxies.GPSServiceProxy
-Reward/domain/User.java
- Reward.domain.User
 Reward/RewardApplication.java
  Reward.RewardApplication
+Reward/domain/User.java
+ Reward.domain.User

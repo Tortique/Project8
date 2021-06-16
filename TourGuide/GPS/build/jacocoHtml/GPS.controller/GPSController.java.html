@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GPSController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">GPS</a> &gt; <a href="index.source.html" class="el_package">GPS.controller</a> &gt; <span class="el_source">GPSController.java</span></div><h1>GPSController.java</h1><pre class="source lang-java linenums">package GPS.controller;
+
+import GPS.domain.Attraction;
+import GPS.domain.User;
+import GPS.domain.VisitedLocation;
+import GPS.proxies.UserServiceProxy;
+import GPS.service.GPSService;
+import GPS.util.GpsUtil;
+import com.jsoniter.output.JsonStream;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+import java.util.UUID;
+
+@RestController
+@RequestMapping(&quot;/gps&quot;)
+<span class="nc" id="L19">public class GPSController {</span>
+    @Autowired
+    UserServiceProxy userServiceProxy;
+
+    @Autowired
+    public GpsUtil gpsUtil;
+
+    @Autowired
+    public GPSService gpsService;
+
+    @GetMapping(&quot;/getNearByAttractions/{username}&quot;)
+    public String getNearByAttractions(@PathVariable(&quot;username&quot;) String userName) {
+<span class="nc" id="L31">        User user = userServiceProxy.getUser(userName);</span>
+<span class="nc" id="L32">        VisitedLocation visitedLocation = gpsUtil.getUserLocation(user.getUserId());</span>
+<span class="nc" id="L33">        return JsonStream.serialize(gpsService.getNearByAttractions(visitedLocation));</span>
+    }
+
+    @GetMapping(&quot;/getUserLocation/{userId}&quot;)
+    public VisitedLocation getUserLocation(@PathVariable(&quot;userId&quot;) UUID userID) {
+<span class="nc" id="L38">        return gpsUtil.getUserLocation(userID);</span>
+    }
+
+    @GetMapping(&quot;/getAttractions&quot;)
+    public List&lt;Attraction&gt; getAttractions() {
+<span class="nc" id="L43">        return gpsUtil.getAttractions();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

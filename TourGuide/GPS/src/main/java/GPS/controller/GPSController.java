@@ -26,19 +26,19 @@ public class GPSController {
     @Autowired
     public GPSService gpsService;
 
-    @RequestMapping("/getNearByAttractions/{username}")
+    @GetMapping("/getNearByAttractions/{username}")
     public String getNearByAttractions(@PathVariable("username") String userName) {
         User user = userServiceProxy.getUser(userName);
         VisitedLocation visitedLocation = gpsUtil.getUserLocation(user.getUserId());
         return JsonStream.serialize(gpsService.getNearByAttractions(visitedLocation));
     }
 
-    @RequestMapping("/getUserLocation/{userId}")
+    @GetMapping("/getUserLocation/{userId}")
     public VisitedLocation getUserLocation(@PathVariable("userId") UUID userID) {
         return gpsUtil.getUserLocation(userID);
     }
 
-    @RequestMapping("/getAttractions")
+    @GetMapping("/getAttractions")
     public List<Attraction> getAttractions() {
         return gpsUtil.getAttractions();
     }

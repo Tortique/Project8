@@ -15,7 +15,7 @@ public interface ITourGuideService {
     VisitedLocation getUserLocation(User user) throws InvalidLocationException;
     User getUser(String userName);
     List<User> getAllUsers();
-    void addUser(User user);
+    boolean addUser(User user);
     List<Provider> getTripDeals(User user);
     CompletableFuture<?> trackUserLocation(User user);
     List<VisitedLocation> getAllCurrentLocations();
