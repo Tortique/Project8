@@ -4,44 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a778c04c-8db1-44dd-ba20-f6433004ad05" name="Default Changelist" comment="#0 Modules build + opti">
+    <list default="true" id="a778c04c-8db1-44dd-ba20-f6433004ad05" name="Default Changelist" comment="#1 TourGuide Unit Test">
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/GPSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/GPSApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/controller/GPSController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/controller/GPSController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/proxies/UserServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/build/classes/java/main/GPS/proxies/UserServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/controller/GPSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/src/main/java/GPS/controller/GPSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/src/main/java/GPS/proxies/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/src/main/java/GPS/proxies/UserServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/proxies/GPSServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/classes/java/main/Reward/proxies/GPSServiceProxy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reward/build/classes/java/test/TestRewardsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/classes/java/test/TestRewardsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reward/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reward/src/main/java/Reward/proxies/GPSServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/src/main/java/Reward/proxies/GPSServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacoco/test.exec" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacoco/test.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/User.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/UserReward.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/VisitedLocation.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.domain/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/RewardsService.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/Reward.service/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/jacocoHtml/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/reports/jacoco/test/jacocoTestReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/classes/TestRewardsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/reports/tests/test/classes/TestRewardsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/TEST-TestRewardsService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/test-results/test/TEST-TestRewardsService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reward/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reward/src/test/java/TestRewardsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reward/src/test/java/TestRewardsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tourGuide/proxies/GPSServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tourGuide/proxies/GPSServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tourGuide/proxies/RewardServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tourGuide/proxies/RewardServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tourGuide/service/ITourGuideService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tourGuide/service/ITourGuideService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tourGuide/service/TourGuideService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tourGuide/service/TourGuideService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tourGuide/TestPerformance.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tourGuide/TestPerformance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tourGuide/TestTourGuideService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tourGuide/TestTourGuideService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tourGuide/proxies/GPSServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tourGuide/proxies/GPSServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tourGuide/proxies/RewardServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tourGuide/proxies/RewardServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tourGuide/service/ITourGuideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tourGuide/service/ITourGuideService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tourGuide/service/TourGuideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tourGuide/service/TourGuideService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tourGuide/TestPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tourGuide/TestPerformance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tourGuide/TestTourGuideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tourGuide/TestTourGuideService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestTourGuideService.updateUserPreferencesInvalidUsername">
+  <component name="RunManager" selected="Gradle.TestRewardsService.getDistance">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -153,6 +149,48 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="TestRewardsService.calculateRewards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestRewardsService.calculateRewards&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Reward:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRewardsService.getDistance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestRewardsService.getDistance&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Reward:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="TestRewardsService.isWithinAttractionProximity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -196,54 +234,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestTourGuideService.trackUserLocationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tourGuide.TestTourGuideService.trackUserLocationTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TestTourGuideService.updateUserPreferencesInvalidUsername" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;tourGuide.TestTourGuideService.updateUserPreferencesInvalidUsername&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'TourGuide'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -317,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestRewardsService.getDistance" />
+        <item itemvalue="Gradle.TestRewardsService.calculateRewards" />
         <item itemvalue="Gradle.TestTourGuideService.updateUserPreferencesInvalidUsername" />
         <item itemvalue="Gradle.TestTourGuideService.addUserAlreadyExisting" />
         <item itemvalue="Gradle.TestRewardsService.isWithinAttractionProximity" />
-        <item itemvalue="Gradle.Tests in 'TourGuide'" />
-        <item itemvalue="Gradle.TestTourGuideService.trackUserLocationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +348,7 @@
       <workItem from="1623588582556" duration="3853000" />
       <workItem from="1623661548690" duration="2205000" />
       <workItem from="1623665951178" duration="106000" />
-      <workItem from="1623832104942" duration="3315000" />
+      <workItem from="1623832104942" duration="5428000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des modules">
       <created>1623412267117</created>
@@ -375,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623592284860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#1 TourGuide Unit Test">
+      <created>1623835763808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623835763808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +400,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajout des modules" />
     <MESSAGE value="#0 Modules build + opti" />
-    <option name="LAST_COMMIT_MESSAGE" value="#0 Modules build + opti" />
+    <MESSAGE value="#1 TourGuide Unit Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="#1 TourGuide Unit Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
