@@ -70,10 +70,11 @@ public class TourGuideService implements ITourGuideService{
 		return new ArrayList<>(internalUserMap.values());
 	}
 	
-	public void addUser(User user) {
+	public boolean addUser(User user) {
 		if(!internalUserMap.containsKey(user.getUserName())) {
 			internalUserMap.put(user.getUserName(), user);
 		}
+		return false;
 	}
 
 	public List<Provider> getTripDeals(User user) {

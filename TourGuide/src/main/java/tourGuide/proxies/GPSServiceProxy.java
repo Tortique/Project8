@@ -2,8 +2,8 @@ package tourGuide.proxies;
 
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import tourGuide.domain.Attraction;
 import tourGuide.domain.VisitedLocation;
 
@@ -12,12 +12,12 @@ import java.util.UUID;
 
 @FeignClient(value = "gpsService",url = "localhost:9001" )
 public interface GPSServiceProxy {
-    @RequestMapping("/getNearByAttraction/{username}")
+    @GetMapping("/getNearByAttractions/{username}")
     String getNearByAttraction(@PathVariable("username") String username);
 
-    @RequestMapping("/getUserLocation/{userId}")
+    @GetMapping("/getUserLocation/{userId}")
     VisitedLocation getUserLocation(@PathVariable("userId") UUID userID);
 
-    @RequestMapping("/getAttractions")
+    @GetMapping("/getAttractions")
     List<Attraction> getAttractions();
 }

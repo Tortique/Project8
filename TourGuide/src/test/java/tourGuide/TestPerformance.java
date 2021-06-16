@@ -24,10 +24,10 @@ import static org.junit.Assert.assertTrue;
 @SpringBootTest
 public class TestPerformance {
     @Autowired
-    GPSServiceProxy gpsServiceProxy;
+    public GPSServiceProxy gpsServiceProxy;
 
     @Autowired
-    RewardServiceProxy rewardServiceProxy;
+    public RewardServiceProxy rewardServiceProxy;
     /*
      * A note on performance improvements:
      *
